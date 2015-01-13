@@ -67,6 +67,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
+	
 }
 
 .lightbox > div > div {
@@ -92,12 +93,11 @@
 	padding: .25em 1.5em .25em 1.5em;
 	border-radius: 5px;
 	background-color: #ED818A;
-}*/
-
+}
+*/
 .media-block-left{
 	float: left;
 	margin-right: 5px;
-
 }
 
 .media-block-right{
