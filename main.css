@@ -1,7 +1,10 @@
 /* ADD YOUR STYLES HERE */
 
-.styled-table {
+* {
+	box-sizing: border-box;
+}
 
+.styled-table {
 	border-collapse: collapse;
 	width: 100%;
 }
@@ -56,8 +59,8 @@
 	font-size: 0.75em;
 	line-height: 1.5em;
 }
-/*
-.lightbox {
+
+/*.lightbox {
 	background: #585858;
 	position: fixed;
 	width: 100%;
@@ -71,7 +74,7 @@
 	width: 600px;
 	border-radius: 10px;
 	padding: 2em;
-	position: absolute;
+	position: fixed;
 	left: 50%;
 	top: 50%;
 	-webkit-transform: translate(-50%, -50%);
@@ -91,8 +94,13 @@
 	background-color: #ED818A;
 }*/
 
-.media-block{
+.media-block-left{
 	float: left;
-	padding-right: 5px;
+	margin-right: 5px;
+
+}
+
+.media-block-right{
+	overflow: hidden;
 }
 

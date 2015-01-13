@@ -1,0 +1,15 @@
+Box Model 
+- Padding
+- Margin
+- Border 
+
+DIFFERENT BOX MODELS:
+
+box-sizing: border-box; <-- new box model
+- border + padding is included in declared widths/heights
+
+INLINE, INLINE-BLOCK AND BLOCK
+-  Some margins COLLAPSE and some do not, e.g. vertical margins collapse differently
+
+POSITIONING
+- Absolute: completely removed from normal flow; body of page does not know about dimensions of the element. Calculations are made as though the element doesn't exist. 
